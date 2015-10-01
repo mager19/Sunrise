@@ -1,0 +1,489 @@
+
+/*
+*-------------------------------------------------------------
+*
+[Table of contents]
+
+1. Body - General styles
+2. Header
+	2.1 Nav
+3. Section1
+	3.1 Left section1
+	3.2 Right Section1
+4. Cta 1
+5. Locations
+6. Faq	
+7. Cta3
+
+*
+*-------------------------------------------------------------
+*/
+/*
+*-------------------------------------------------------------
+
+*
+*style.css
+*
+Template : Again Landing Template multipropose
+Css 
+Author: Mario Germán Reyes (@mager19)
+Version: 1.0
+Last change: 21/09/15
+*
+
+
+
+
+/* ---------------------------------------------------------------------- */
+/*	Import styles
+/* ---------------------------------------------------------------------- */
+
+@import url("../css/normalize.css");
+
+/* bootstrap.css  - include resetes ( Media querys, grid-responsive,layout).*/
+@import url("../css/bootstrap/bootstrap.css");
+@import url("../css/bootstrap/bootstrap-theme.css");
+
+/* Fonts*/
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+
+/* Owl Carousel */
+@import url("../css/zozo.accordion.css");
+/* Font Awesome */
+@import url("../css/font-awesome.min.css");
+/* Animate and more*/
+@import url("../css/jquery.navgoco.css");
+@import url("../css/demo.css");
+@import url("../css/animate.css");
+
+
+/* ESTILOS GENERALES*/
+
+
+
+body{
+	
+	line-height:30px;
+	color:#4d4d4d;
+	background: #fff;
+	font-family: Lato;
+	font-size: 16px;
+	
+	
+}
+a{	
+	color: #575757;
+}
+
+p{
+	line-height: 27px;
+	color: #9a9a9a;
+	word-wrap: break-word;
+	font-size: 1em;
+}
+h1 {
+
+	font-size:4em;
+	font-weight: 500;
+
+}
+h2 {font-size: 3em;
+	font-weight: 800px;}
+h3 {font-size:18px;}
+h4 {font-size:16px;}
+h5 {font-size:14px;}
+h6 {font-size:12px;}
+
+h1, h2, h3, h4, h5, h6 {
+	
+	
+	line-height: 30px;
+	color: #4d4d4d;
+	margin: 0;	
+}
+img{
+	max-width: 100%;
+}
+.clearfix{
+	width:1px;
+	height:1px;	
+	display:block;
+	clear:both;
+	content:" , ";
+}
+
+
+.contenedor{
+
+	padding: 6em 0;
+}
+
+
+/* Header */
+
+header{
+	
+	background-image: url("../img/beach.jpg");
+	background-position: top top;
+	height: 46em;
+	text-align: center;
+
+}
+
+	/* NaV */
+
+	
+	nav ul li{
+		
+	
+		display: inline-block;
+		list-style: none;
+		margin-left: 3em;
+		padding-top: 10px;
+	}
+
+	nav ul li a{
+
+		color:#fff;
+		font-size: 16px;
+		font-weight: 500;
+		letter-spacing: 1px;
+
+	}
+
+	nav ul li a:hover{
+		
+		color:#CCFC8E;
+
+	}
+
+	#titulo {
+
+		padding-top: 15em;
+	}
+
+	#titulo h1{
+	
+		color:#fff;
+		font-size:65px;
+		font-weight: 500;
+
+	}
+
+	#titulo h2{
+	
+		color:#CCFC8E;
+		font-size:30px;
+		font-weight: 500;
+		margin-top: 25px;
+		margin-bottom: 10px;
+
+	}
+
+	#titulo a{
+
+		color:#F7EFA2;
+
+	}
+
+/* Section 1*/
+
+#section1 h3{
+
+	color:#D34017;
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+#section1 h4{
+	
+	font-style: italic;
+	text-align: center;
+
+}
+
+
+/* Left-section1 */
+
+.left-section1{
+margin-top: 3.5em;
+	
+
+}
+
+.left-section1 h4{
+
+	color:#4d4d4d;
+	font-size: 27px;
+	font-style: normal!important;
+	font-weight: 500;
+	text-align: left!important;
+}
+
+.left-section1 p{
+
+	color:#4d4d4d;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	
+
+}
+
+.left-section1 p i{
+	
+	color: #D34017;
+	padding-right: 10px;
+}
+
+.left-section1 a{
+
+	background-color: #D34017;
+	color: #fff;
+	padding: 0.7em 1.5em;
+
+}
+
+
+/*  Right Section */
+
+.right-section1{
+	
+	margin-top: 1em;
+	padding: 2em 1.5em;
+
+}
+
+#Container .mix{
+	display: none;
+	margin-top: 2px;
+}
+
+
+.controls{
+  padding: 2% 0;
+  color: #4d4d4d;
+}
+
+.controls button{
+	
+	background-color:#D34017;
+	border:none;
+	color:#fff;
+	padding: 0 2.4em;
+}
+
+.controls button.active{
+	
+	border: 1px solid #232323;
+	color:#fff;
+	font-weight: bold;
+
+}
+
+/* CTA ! */
+
+.cta1{
+	
+	background-color:#232323;
+	background-image: url(../img/fondo-cta1.png);
+	background-position: top center;
+	padding: 2em 0;
+	height: 10em;
+
+}
+
+.cta1 h3, .cta1 h4{
+
+	color:#fff;
+}
+
+.cta1 h3{
+
+	font-size: 2.5em;
+	margin-top: 20px;
+}
+
+.cta1 h4{
+
+	font-size: 1.5em;
+	margin-top: 10px;
+}
+
+.right-cta1{
+
+	font-size: 40px;
+	color:#fff;
+	text-align: center;
+
+}
+
+.right-cta1 h3{
+
+	font-size:1em;
+	margin-top: 20px;
+}
+
+.right-cta1 h3 span{
+
+	color:#FABE28;
+}
+
+.right-cta1 h4{
+
+	font-size: 1em;
+	font-weight: 300;
+	margin-top: 10px;
+}
+
+
+/* Locations */
+
+.location-left{
+	
+	background-image: url(../img/locations1.jpg);
+	background-position: center center;
+	height: 30em;
+}
+.location-right{
+	
+	background-image: url(../img/locations2.jpg);
+	background-position: center center;
+	height: 30em;
+}
+
+
+
+.location-text {
+
+	padding: 4em;
+	text-align: center;
+}
+
+.location-text h3{
+
+	color:#D34017;
+	font-size: 40px;
+	margin-top: 2em;
+}
+
+.location-text p{
+
+	font-weight: 300;
+	margin:2em;
+}
+
+.location-text a{
+
+	border:3px double #D34017;
+	color:#D34017;
+	padding: 0.5em 1em;
+}
+
+.franja{
+	background-color: #232323;
+}
+
+
+/* Faq */
+
+.faq{
+	/*background-color: #232323;*/
+	background-image: url(../img/textura.png);
+}
+
+.faq h3{
+
+	color:#fff;
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+#demo-accordion li h3 span span{
+    
+    color:#D34017;
+    font-size: 2em;
+    padding-right: 0.5em;
+    text-shadow:none;
+    opacity: 0.5;
+
+}
+
+
+#demo-accordion li h3 {
+
+	font-size: 2em;
+}
+
+#demo-accordion li ul li{
+
+	color:#bcbcbc;
+	margin: 1em;
+}
+
+#demo-accordion li ul li i{
+
+	color:#CCFC8E;
+	margin-right: 1em;
+}
+
+/* CTA 3*/
+
+
+.item-cta{
+
+	padding: 2em 3em;
+	text-align: center;
+}
+
+.item-cta i, .cta3 h4{
+	color:#fff;
+	font-size: 2em;
+	padding: 0.2em 0;
+}
+
+.item-cta h5{
+	color:#fff;
+	font-size: 1.5em;
+	margin-top: 0.2em;
+}
+	
+	#item1{
+		background-color: #4ECDC4;
+		
+	}
+	#item1:hover{
+		background-image: url(../img/textura.png);
+
+	}
+
+	#item2{
+		background-color: #EB0A44;
+		
+	}
+	#item2:hover{
+		background-image: url(../img/textura.png);
+
+	}
+
+	#item3{
+		background-color:#00AAFF;
+		
+	}
+	#item3:hover{
+		background-image: url(../img/textura.png);
+
+	}
+	
+	#item4{
+		background-color:#2E2633;
+		
+	}
+	#item4:hover{
+		background-image: url(../img/textura.png);
+
+	}
+
+	
